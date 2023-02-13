@@ -6,7 +6,7 @@ html {
   background-image: url(backg.jpg);
   background-size: 100%;
   background-repeat:repeat;
-  
+ 
 }
 
 .sidebar {
@@ -15,7 +15,6 @@ html {
   background: #898283;
   font-size: 0.65em;
   position: fixed;
-  
 }
 
 .nav {
@@ -33,6 +32,7 @@ html {
     letter-spacing: 0.1em;
     font-weight:bolder;
     color: #3e3737;
+    
 }
 
 ul {
