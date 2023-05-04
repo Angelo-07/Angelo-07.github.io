@@ -4,39 +4,47 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 
     <title>My ePortfolio</title>
 </head> 
 
     <main class="main">
       
-        <aside class="sidebar">
+        <aside class="sidenav">
           <nav class="nav">
-            <div class="container">
-               <h1> - A L C -</h1> 
-            </div>
+          
+            <img src="logo.png" alt="logo" style="width:250px; margin-left: 10%; margin-top: -10%; margin-bottom: -5%;">
+            
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Education</a></li>
-              <li><a href="#">Achievements</a></li>
-              <li><a href="#">Get In Touch</a></li>
-            </ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#works">Works</a></li>
+              <li><a href="#cont">Contact</a></li>
+            </ul>                        
           </nav>
-           
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-linkedin"></a> 
+          <div class="card" id="foott">
+            <div class="card" id="foot">
+            <a href="https://www.facebook.com/angelo.cometa.5" class="fa fa-facebook"></a>
+          </div>
+          <div class="card" id="foot">
+            <a href="https://www.instagram.com/alcometa/" class="fa fa-instagram"></a>
+          </div>
+          <div class="card" id="foot">
+            <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            
+            </div>
+          
         </aside>
-      
-    
-        <div class="card">
-            <img src="geloo.jpg" alt="Angelo" style="width:420px">
-            <div class="container">
-              <h1><b>Angelo Cometa</b></h1>
-              <p> 3rd year BSIT Website Development Student<br> Holy Angel University</p><br><br>
+        <div class="card home" id="home">        
+          <div id="coms" class="container">
+            <img src="geloo.jpg" alt="Angelo" style="width:380px; border-radius: 50%; margin-top: 2%;"></div>
+            <div id="desc" class="container home" >
+              <h1 style="font-size: 40px;"><b>Angelo Cometa</b></h1>
+              <p style="font-size: 20px;"> 3rd year BSIT Website Development Student<br> Holy Angel University</p><br><br>
 
-            <div class="btn-group" style="width: 500px; height: 30px;">
+            <div class="btn-group" style="width: 700px; height: 30px;">
               <a href="#about" class="btn"> About me</a>
               <a href="#description" class="btn"> Description</a>
               <a href="#skills" class="btn"> Skills</a>
@@ -44,14 +52,14 @@
             </div>
               </div>
           </main>
-          <br>
+          
 
-
-        <div class="card" style="width:420px; margin-left: 25%;margin-top:15%">
-        <img class="gelo" src="gelo.jpg" alt="Angelo">
+        
+        <div class="card" style="width:400px; margin-left: 20%;margin-top:5%">
+        <img class="gelo" src="gelo.jpg" alt="Angelo" style="width:400px; border-radius: 50%;">
         </div>
-        <div class="container" id="about" style="width: 600px; margin-left: 55%"> 
-                    <br><h1>About me</h1>
+        <div class="card" id="about" style="width: 650px; margin-left: 52%; padding: 1%;"> 
+                    <h1>About me</h1>
                     <p style="text-align: left">Hi! I am Angelo Cometa, currently a third year college student at the Holy Angel University taking up Bachelor of Science in Information Technology with are of Specialization in Website Development. Seeking for for an Internship in your company as a Front-end Developer. <br><br>
                     A dedicated, passionate, responsible and hard-working person. I am a mature
                     team player who can adapt to any difficult situation. I can work well
@@ -60,56 +68,378 @@
                     to ensure I manage my time effectively. <br><br> In my three years of studying in Holy Angel as a Website Developer student, i was able to nourish my knowledge in out continuos growing compuitng field especially in Web Developing. My dedication to my work is intense. I have a constant source of motivation because I enjoy what I do, which inspires me to give my all.
                       </p>
                 </div>  
-                <div class="container" style="width: 650px; margin-left: 55%;">
+                <div class="container" style="width: 650px; margin-left: 52%;">
                     <div class="abbt">
                         <p  style="text-align: left;"><strong>AGE : </strong>20 years old <br> <strong>GENDER :</strong> Male <br> <strong>PRONOUNS :</strong> He/ Him/ His <br> <strong>PHONE :</strong> 0956 - 685 - 2715<br> <strong>EMAIL : </strong> acometa07@gmail.com <br> <strong>LANGUAGE / DIALECT :</strong> English, Tagalog and Kapampangan</p>
+
+                        <div class="btn-group" style="width: 700px; height: 30px;">
+                        <a style="margin-left: 86%;" href="#home" class="btn"> Home</a>
+                        </div>
                         </div> <br>
-                </div><br>
+                </div>
             
-
                 
-                    <div class="container skillss" id="skills">
-                        <br><br><h1>My Skills</h1><br>
+                <div class="container skills" id="skills" style="margin-top: 2%; margin-left: 35%; margin-bottom: 5%;"><br>
+                  <div class="container" id="skillsss">
+                    <div class="content">
+                      <h1 style="text-align: center; color: #CBE4DE; font-size: 40px;">Skills</h1>
+                    </div>
+                  </div> 
 
-                            <p>HTML</p>
-                            <div class="container" style="background-color: #a5a1a1">
-                            <div class="skills html">90%</div>
-                            </div><br>
+                <div class="skills">
+                  <div class="skill">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-bar">
+                      <div class="skill-per" per="95%" style="max-width:95%"></div>
+                    </div>
+                  </div>
 
-                            <p>CSS</p>
-                            <div class="container" style="background-color: #a5a1a1">
-                            <div class="skills css">95%</div>
-                            </div><br>
+                  <div class="skill">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-bar">
+                      <div class="skill-per" per="95" style="max-width:95%"></div>
+                    </div>
+                  </div>
 
-                            <p>JavaScript</p>
-                            <div class="container" style="background-color: #c1bebeba">
-                            <div class="skills js">85%</div>
-                            </div><br>
+                  <div class="skill">
+                    <div class="skill-name">Javascript</div>
+                    <div class="skill-bar">
+                      <div class="skill-per" per="90%" style="max-width:90%"></div>
+                    </div>
+                  </div>
 
-                            <p>PHP</p>
-                            <div class="container" style="background-color: #c1bebeba">
-                            <div class="skills php">90%</div>
-                            </div><br>
+                  <div class="skill">
+                    <div class="skill-name">Technical Skills</div>
+                    <div class="skill-bar">
+                      <div class="skill-per" per="95%" style="max-width:95%"></div>
+                    </div>
+                  </div>
 
-                            <p>Communication Skills</p>
-                            <div class="container" style="background-color: #c1bebeba">
-                            <div class="skills comm">95%</div>
-                            </div><br>
+                  <div class="skill">
+                    <div class="skill-name">Computer Literacy</div>
+                    <div class="skill-bar">
+                      <div class="skill-per" per="95%" style="max-width:95%"></div>
+                    </div>
+                  </div>
 
-                            <p>Technical Skills</p>
-                            <div class="container" style="background-color: #c1bebeba">
-                            <div class="skills tech">90%</div>
-                            </div><br><br><br>
-
-                        </div><br>
+                  <div class="skill">
+                    <div class="skill-name">Communication Skills</div>
+                    <div class="skill-bar">
+                      <div class="skill-per" per="95%" style="max-width:95%"></div>
+                    </div>
+                  </div>
+                </div>
+                
+                </div>
+                <div class="btn-group" style="width: 700px; height: 30px;">
+                  <a style="margin-left: 195%;" href="#home" class="btn"> Home</a>
+                  </div>
                                     
        
-                        <br><br><br><div class="container desc" id="description" style="width: 1000px; margin-left: 30%">
+                        <div class="container desc" id="description" style="width: 1000px; margin-left: 25%; margin-top: 8%"><br>
 
-                            <br><br><h1>Description</h1><br>
-                            <p style="font-size: 20px; text-align: left;">A student's course-related work is compiled in an electronic portfolio, or ePortfolio. ePortfolios promote learning because they give students the chance and a virtual setting to evaluate their academic work critically, to reflect on it, and to connect it to other courses. <br> This resume aims to showcase growth or change over time, to help develop process skills like goal-setting and self-evaluation, to identify areas for improvement, and to recognize weaknesses and strengths<br><br> 
+                          <div class="container" id="skillssss">
+                            <div class="content">
+                              <h1 style="text-align: center; color: #CBE4DE; font-size: 42px;">Description</h1>
+                            </div>
+                          </div> <br>
+                            <p style="font-size: 19.5px; text-align: left;">A student's course-related work is compiled in an electronic portfolio, or ePortfolio. ePortfolios promote learning because they give students the chance and a virtual setting to evaluate their academic work critically, to reflect on it, and to connect it to other courses. <br> This resume aims to showcase growth or change over time, to help develop process skills like goal-setting and self-evaluation, to identify areas for improvement, and to recognize weaknesses and strengths<br><br> 
                               ~ In this ePortfolio, for you to simply view each pages, there are buttons under the student's name and course; the "About me", "Description", and "Skills" included in the Home page. <br>
                               ~ On the left part of this ePortfolio, you will see the other navigations where you can visit and vie the student's Educational Backgroud, Student's works, and Student's Contact. <br>
-                              ~ And on the bottom part, you will see icons where you can visit the student's Facebook page, Instagram, Twitter and Linkedin. <br> 
-                            Once again, this is Angelo Cometa, and thank you for taking time in reading my ePortfolio thoroughly! <br></p>
+                              ~ And on the bottom part, you will see icons where you can visit the student's Facebook page, Instagram, Twitter and Linkedin. 
+                            </p>
+                            <div class="btn-group" style="width: 700px; height: 30px;">
+                              <a style="margin-left: 120%;" href="#home" class="btn"> Home</a>
+                              </div>
                         </div>
+               <hr>
+
+
+               <!-- Educational Background  -->
+               <div class="container" id="awwcert">
+                <div class="content" id="education">
+                  <h1 style="text-align: center; color: #CBE4DE; font-size: 40px;">Educational Background</h1>
+                </div>
+              </div> <br>
+          <div class="timeline">
+            <div class="container left">
+              <div class="content">
+                <h2>2020 - present</h2>
+                <h4>BSIT - Website Development</h4>
+                <p>Holy Angel University</p>
+              </div>
+            </div>
+            <div class="container right" id="rright">
+              <div class="content">
+                <h2>2014 - 2020</h2>
+                <h4>Senior High School</h4>
+                <p>Holy Angel University</p>
+                <h4>Junior High School</h4>
+                <p>Porac National High School</p>
+          
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content">
+                <h2>2008 - 2014</h2>
+                <h4>Primary Education</h4>
+                <p>Porac Elementary School</p>
+              </div>
+            </div>
+          </div><br>
+          <hr>
+          
+          
+          <div class="container" id="awwcert">
+            <div class="content">
+              <h1 style="text-align: center; color: #CBE4DE; font-size: 40px;">Awards and Certifications</h1>
+            </div>
+          </div> 
+          
+          <div class="card" style="width:80%; margin-left: 20%;">
+          <div class="column" id="awrdss">
+                <div class="container" id="awrdss">
+                <img src="cert4.png" alt="Avatar" class="image">
+                <div class="middle">
+                  <div class="text">2021 - 2022 <br> Dean's Lister</div>
+                  </div>
+                </div>
+          
+                <div class="container" id="awrdss">
+                  <img src="cert2.png" alt="Avatar" class="image">
+                  <div class="middle">
+                    <div class="text">2020 - 2021 <br> Dean's Lister</div>
+                    </div>
+                </div>
+          
+                <div class="container" id="awrdss">
+                  <img src="cert1.png" alt="Avatar" class="image">
+                  <div class="middle">
+                    <div class="text">2019 - 2020 <br> With Honors</div>
+                  </div>
+                </div>
+          
+                <div class="container" id="awrdss">
+                  <img src="cert6.png" alt="Avatar" class="image">
+                  <div class="middle">
+                    <div class="text">Cisco Networking Academy <br> Introduction to Cybersecurity</div>
+                  </div>
+                </div>
+          
+                <div class="container" id="awrdss">
+                  <img src="cert8.png" alt="Avatar" class="image">
+                  <div class="middle">
+                    <div class="text">Google Analytics Academy : <br> Google Analytics for Beginner</div>
+                  </div>
+                </div>
+          
+                <div class="container" id="awrdss">
+                  <img src="cert10.png" alt="Avatar" class="image">
+                  <div class="middle">
+                    <div class="text">OPTIMAL PRIME :<br> The Quintessential Guide to <br>a Famed Channel</div>
+                  </div>
+                </div>
+          
+          
+          </div>
+          
+          <div class="column" id="awrdss">
+            <div class="container" id="awrdss">
+              <img src="cert5.png" alt="Avatar" class="image">
+              <div class="middle">
+                <div class="text">2021 - 2022 <br> Dean's Lister</div>
+                </div>
+            </div>
+          
+            <div class="container" id="awrdss">
+              <img src="cert3.png" alt="Avatar" class="image">
+              <div class="middle">
+                <div class="text">2020 - 2021 <br> Dean's Lister</div>
+                </div>
+              </div>
+          
+              <div class="container" id="awrdss">
+                <img src="cert3.png" alt="Avatar" class="image">
+                <div class="middle">
+                  <div class="text">2020 - 2021 <br> Dean's Lister</div>
+                  </div>
+                </div>
+          
+                  <div class="container" id="awrdss">
+                    <img src="cert7.png" alt="Avatar" class="image">
+                    <div class="middle">
+                      <div class="text">Cisco Networking Academy<br> Introduction to IoT</div>
+                    </div>
+                  </div>
+          
+                  <div class="container" id="awrdss">
+                    <img src="cert9.png" alt="Avatar" class="image">
+                    <div class="middle">
+                      <div class="text">Google Analytics Academy : <br> Introduction to Data Studio</div>
+                    </div>
+                  </div>
+          
+                  <div class="container" id="awrdss">
+                    <img src="cert11.png" alt="Avatar" class="image">
+                    <div class="middle">
+                      <div class="text">Design of the Times :<br> Exemplifying the Beauty of Design <br>through Implementation</div>
+                    </div>
+                  </div>
+            
+          </div>
+          </div><hr style="margin-bottom: 9%;">
+          
+
+          <!-- WORKS -->
+
+          <div class="container" id="awwcert">
+            <div class="content" id="works">
+              <h1 style="text-align: center; color: #CBE4DE; font-size: 50px;">Works</h1>
+            </div>
+          </div>
+          
+          <h1 style="color: #CBE4DE; font-size: 40px;margin-left: 47%;">Urban Steak using Crud</h1>
+          
+          <div class="card" style="width:75%; margin-left: 25%;">
+            <div class="column" id="workie">
+              <div class="container" id="workie">
+                <img src="urban1.png" alt="Avatar" class="image" id="urb">
+                <div class="middle">
+                  <div class="text" id="txt">Urban Steak<br> Home Page</div>
+                  </div>
+              </div>
+              <div class="container" id="workie">
+                <img src="urban3.png" alt="Avatar" class="image" id="urb">
+                <div class="middle">
+                  <div class="text" id="txt">Urban Steak<br>View Reservation</div>
+                  </div>
+              </div>
+          
+          </div>
+          
+          
+          <div class="column" id="workie">
+            <div class="container" id="workie">
+              <img src="urban2.png" alt="Avatar" class="image" id="urb">
+              <div class="middle">
+                <div class="text" id="txt">Urban Steak<br> Reservation Form</div>
+                </div>
+            </div>
+          
+            <div class="container" id="workie">
+              <img src="urban4.png" alt="Avatar" class="image" id="urb">
+              <div class="middle">
+                <div class="text" id="txt">Urban Steak<br>About the business</div>
+                </div>
+            </div>
+          </div>
+          </div>
+          <hr style="margin-bottom: 4%;">
+          
+          <h1 style="color: #CBE4DE; font-size: 40px;margin-left: 47%;">Restaurant using Database</h1>
+          
+          
+          <div class="card" style="width:75%; margin-left: 25%;">
+            <div class="column" id="workiee">
+              <div class="container" id="workiee">
+                <img src="resto1.png" alt="Avatar" class="image" id="urbb">
+                <div class="middle">
+                  <div class="text" id="txtt">Restaurant<br> Home Page</div>
+                  </div>
+              </div>
+          
+              <div class="container" id="workiee">
+                <img src="resto6.png" alt="Avatar" class="image" id="urbb">
+                <div class="middle">
+                  <div class="text" id="txtt">Top Scorer Restaurants</div>
+                  </div>
+              </div>
+            </div>
+          
+            <div class="column" id="workiee">
+              <div class="container" id="workiee">
+                <img src="resto2.png" alt="Avatar" class="image" id="urbb">
+                <div class="middle">
+                  <div class="text" id="txtt">List of Restaurants</div>
+                  </div>
+              </div>
+          
+              <div class="container" id="workiee">
+                <img src="resto7.png" alt="Avatar" class="image" id="urbb">
+                <div class="middle">
+                  <div class="text" id="txtt">About the Owners</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          
+          <hr style="margin-bottom: 4%;">
+          
+          <h1 style="color: #CBE4DE; font-size: 40px;margin-left: 44%;">Online Store Using Wordpress</h1>
+          
+          
+          <div class="card" style="width:75%; margin-left: 25%;">
+            <div class="column" id="workiee">
+              <div class="container" id="workiee">
+                <img src="chavs1.png" alt="Avatar" class="image" id="urbb">
+                <div class="middle">
+                  <div class="text" id="txxtt">Chav's Apparel<br> Home Page</div>
+                  </div>
+              </div>
+          
+              <div class="container" id="workiee">
+                <img src="chavs3.png" alt="Avatar" class="image" id="urbb">
+                <div class="middle">
+                  <div class="text" id="txxtt">About the Owner</div>
+                  </div>
+              </div>
+            </div>
+          
+            <div class="column" id="workiee">
+              <div class="container" id="workiee">
+                <img src="chavs2.png" alt="Avatar" class="image" id="urbb">
+                <div class="middle">
+                  <div class="text" id="txxtt">Blogs</div>
+                  </div>
+              </div>
+          
+              <div class="container" id="workiee">
+                <img src="chavs4.png" alt="Avatar" class="image" id="urbb">
+                <div class="middle">
+                  <div class="text" id="txxtt">Contact Info</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <hr style="margin-bottom: 4%; background-color: #0E8388;">
+            </div><hr>
+          
+            <!-- CONTACT -->
+
+            
+<div class="container" id="cont" style="margin-bottom: 2%;margin-top: 5%;">
+  <div style="text-align:center">
+    <h2 style="font-family: 'Times New Roman', Times, serif; font-size: 30px; color: #CBE4DE;">Contact</h2>
+    <p style="color:#CBE4DE ";>For more information and clarifications, please leave a message</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="coms.png" style="width:90%; margin-left: 5%; border-radius: 50%;">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname" style="font-family: 'Times New Roman', Times, serif;color:#CBE4DE ">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname" style="font-family: 'Times New Roman', Times, serif;color:#CBE4DE ">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+       <label for="email" style="font-family: 'Times New Roman', Times, serif;color:#CBE4DE ">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your Email..">
+        <label for="subject" style="font-family: 'Times New Roman', Times, serif;color:#CBE4DE ">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div><br>
+          
